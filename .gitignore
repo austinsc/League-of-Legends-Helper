@@ -4,7 +4,6 @@ Thumbs.db
 *.suo
 *.vspcc
 *.obj
-*.exe
 *.pdb
 *.user
 *.aps
