@@ -18,13 +18,6 @@
 #define new DEBUG_NEW
 #endif
 
-// Defines for testing EZ LCD Wrapper functions that aren't being used in sample
-//#define BUTTON_TESTING
-//#define SCREEN_PRIORITY_TESTING
-//#define FOREGROUND_TESTING
-//#define VISIBLE_TESTING
-//#define PAGE_TESTING
-
 LeagueOfLegendsHelperDlg::LeagueOfLegendsHelperDlg(CWnd* pParent /*=NULL*/)
  : CDialog(LeagueOfLegendsHelperDlg::IDD, pParent),
    started(false),
@@ -37,7 +30,7 @@ LeagueOfLegendsHelperDlg::LeagueOfLegendsHelperDlg(CWnd* pParent /*=NULL*/)
    dragon(DEFAULT_DRAGON_SPAWN_TIME, DEFAULT_DRAGON_SPAWN_RATE, _T("dragon is spawning soon"), _T("dragon is up")),
    baron(DEFAULT_BARON_SPAWN_TIME, DEFAULT_BARON_SPAWN_RATE, _T("baron is spawning soon"), _T("baron is up"))
 {
-    m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
+    m_hIcon = AfxGetApp()->LoadIcon(IDI_LOL);
     m_currentHighlightPosition = 1;
 }
 
@@ -59,8 +52,7 @@ BOOL LeagueOfLegendsHelperDlg::OnInitDialog()
 {
     CDialog::OnInitDialog();
 
-    // Set the icon for this dialog.  The framework does this automatically
-    //  when the application's main window is not a dialog
+    // Set the icon for this dialog.
     SetIcon(m_hIcon, TRUE);			// Set big icon
     SetIcon(m_hIcon, FALSE);		// Set small icon
 
@@ -334,6 +326,7 @@ VOID LeagueOfLegendsHelperDlg::EndMatch()
 
 VOID LeagueOfLegendsHelperDlg::FlashColors()
 {
+	/*
 	colors = true;
 	int hue, lum, sat;
 	lum = 120;
@@ -350,4 +343,5 @@ VOID LeagueOfLegendsHelperDlg::FlashColors()
 		Sleep(static_cast<DWORD>(10));
 	}
 	colors = false;
+	*/
 }

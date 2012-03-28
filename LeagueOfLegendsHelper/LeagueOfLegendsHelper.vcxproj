@@ -146,7 +146,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\Lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
@@ -208,7 +208,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\Lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
@@ -221,7 +221,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Bitmap.cpp" />
-    <ClCompile Include="ExtraTester.cpp" />
     <ClCompile Include="EZ_LCD.cpp" />
     <ClCompile Include="EZ_LCD_Page.cpp" />
     <ClCompile Include="LCDAnimatedBitmap.cpp" />
@@ -285,29 +284,12 @@
     <ClInclude Include="lglcd.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
-    <ClInclude Include="timer.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="res\ColorAndMono.ico" />
-    <None Include="res\LeagueOfLegendsHelper.rc2" />
-    <None Include="res\highlight.png" />
-    <None Include="res\icon_next_24.png" />
-    <None Include="res\icon_previous_24.png" />
-    <None Include="res\logitech_logo.bmp" />
-    <None Include="res\logitech_logo_light.png" />
-    <None Include="res\Logitech_logo_small - Copy.png" />
-    <None Include="res\Logitech_logo_small.png" />
-    <None Include="res\next.ico" />
-    <None Include="res\volume_slider_base.png" />
-    <None Include="res\volume_slider_base2.png" />
-    <None Include="res\volume_slider_hilite.png" />
-    <None Include="res\volume_slider_hilite2.png" />
-    <None Include="res\volume_slider_left.png" />
-    <None Include="res\volume_slider_mid.png" />
-    <None Include="res\volume_slider_right.png" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LeagueOfLegendsHelper.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lol.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

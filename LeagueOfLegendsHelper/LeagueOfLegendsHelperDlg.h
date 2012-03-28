@@ -1,15 +1,15 @@
 #pragma once
 
-const double DEFAULT_JUNGLE_SPAWN_TIME = 115.0;
-const double DEFAULT_JUNGLE_SPAWN_RATE = 300.0;
-const double DEFAULT_DRAGON_SPAWN_TIME = 150.0;
-const double DEFAULT_DRAGON_SPAWN_RATE = 360.0;
-const double DEFAULT_BARON_SPAWN_TIME = 900.0;
-const double DEFAULT_BARON_SPAWN_RATE = 420.0;
-
 #include "EZ_LCD.h"
 #include "Bitmap.h"
 #include "LeagueOfLegendsTimerTarget.h"
+
+const float DEFAULT_JUNGLE_SPAWN_TIME = 115.0;
+const float DEFAULT_JUNGLE_SPAWN_RATE = 300.0;
+const float DEFAULT_DRAGON_SPAWN_TIME = 150.0;
+const float DEFAULT_DRAGON_SPAWN_RATE = 360.0;
+const float DEFAULT_BARON_SPAWN_TIME = 900.0;
+const float DEFAULT_BARON_SPAWN_RATE = 420.0;
 
 class LeagueOfLegendsHelperDlg : public CDialog
 {

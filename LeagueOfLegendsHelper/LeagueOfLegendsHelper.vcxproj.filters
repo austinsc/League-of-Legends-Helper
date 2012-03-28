@@ -30,9 +30,6 @@
     <ClCompile Include="Bitmap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ExtraTester.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="LeagueOfLegendsHelper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -137,9 +134,6 @@
     <ClInclude Include="EZ_LCD_Page.h">
       <Filter>EZLCDWrapperFiles</Filter>
     </ClInclude>
-    <ClInclude Include="timer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="LCDPaginateText.h">
       <Filter>Shared\Include</Filter>
     </ClInclude>
@@ -208,61 +202,13 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\ColorAndMono.ico">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="res\highlight.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="res\icon_next_24.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="res\icon_previous_24.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="res\logitech_logo.bmp">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="res\logitech_logo_light.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="res\Logitech_logo_small - Copy.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="res\Logitech_logo_small.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="res\next.ico">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="res\volume_slider_base.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="res\volume_slider_base2.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="res\volume_slider_hilite.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="res\volume_slider_hilite2.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="res\volume_slider_left.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="res\volume_slider_mid.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="res\volume_slider_right.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="res\LeagueOfLegendsHelper.rc2">
-      <Filter>Resource Files</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <ResourceCompile Include="LeagueOfLegendsHelper.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lol.ico">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
