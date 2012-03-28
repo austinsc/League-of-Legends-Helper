@@ -16,3 +16,4 @@ Button 4: This button toggles between the progress bar display and the timer dis
 
 
 Feel free to add an issue if you experience any problems. I wrote this application in a couple hours, so there are probably bugs. 
+The latest Microsoft Visual C++ redistributable package for x86 is required to run the application- you can download it for free from here: http://www.microsoft.com/download/en/details.aspx?id=5555
