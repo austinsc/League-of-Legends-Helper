@@ -2,7 +2,7 @@ League of Legends LCD Panel Plugin v1.0
 
 This application was created to enhance the functionality of the Logitech G510's LCD panel during a 5v5 match of League of Legends. The plugin tracks and (optionally) announces the spawns of neutral monsters throughout the game. 
 
-Included with the download is LeagueOfLegends.xml - a premade profile for use with League of Legends. This can be added to your keyboard's profiles through the Logitech Gaming Software application included with your keyboard's drivers. 
+Included with the download is LeagueOfLegends.xml - a premade profile for use with League of Legends. This can be added to your keyboard's profiles through the Logitech Gaming Software application included with your keyboard's drivers. Included with the profile are several macros that can be used to announce mias as well as control the timers. The profile assumes that the game has been installed to the default 'C:\Riot Games\League of Legends\' directory.
 
 By default, the G1 - G6 keys are assigned to control the timer triggers in the LCD application. The four buttons located under the LCD panel are used for the following features:
 
