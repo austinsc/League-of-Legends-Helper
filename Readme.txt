@@ -14,6 +14,8 @@ Button 3: Toggles on/off the spawn announcements. When the timers approach the e
 
 Button 4: This button toggles between the progress bar display and the timer display.
 
-
 Feel free to add an issue if you experience any problems. I wrote this application in a couple hours, so there are probably bugs. 
+
 The latest Microsoft Visual C++ redistributable package for x86 is required to run the application- you can download it for free from here: http://www.microsoft.com/download/en/details.aspx?id=5555
+
+Also, ensure that you have the latest version of the Logitech Gaming Software (tested on versions 8.01+); http://www.logitech.com/en-us/434/7246?softwareid=7864&amp;osid=14&amp;section=downloads
