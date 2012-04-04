@@ -23,7 +23,7 @@ LeagueOfLegendsHelperDlg::LeagueOfLegendsHelperDlg(CWnd* pParent /*=NULL*/)
    started(false),
    colors(false),
    notify(true),
-   redFriendly(DEFAULT_JUNGLE_SPAWN_TIME, DEFAULT_JUNGLE_SPAWN_TIME, _T("our red buff is spawning soon"), _T("our red buff is up")),
+   redFriendly(DEFAULT_JUNGLE_SPAWN_TIME, DEFAULT_JUNGLE_SPAWN_RATE, _T("our red buff is spawning soon"), _T("our red buff is up")),
    redEnemy(DEFAULT_JUNGLE_SPAWN_TIME, DEFAULT_JUNGLE_SPAWN_RATE, _T("their red buff is spawning soon"), _T("their red buff is up")),
    blueFriendly(DEFAULT_JUNGLE_SPAWN_TIME, DEFAULT_JUNGLE_SPAWN_RATE, _T("our blue buff is spawning soon"), _T("our blue buff is up")),
    blueEnemy(DEFAULT_JUNGLE_SPAWN_TIME, DEFAULT_JUNGLE_SPAWN_RATE, _T("their blue buff is spawning soon"), _T("their blue buff is up")),
